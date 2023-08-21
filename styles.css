@@ -1,0 +1,112 @@
+body, h1,h2,h3,p,ul,li {
+    margin: 10;
+    padding: 10;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color:lightcyan;
+    min-height:100px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: gold;
+    color:skyblue;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 1000px;
+}
+
+.college-info {
+    margin-left: 20px;
+}
+
+nav {
+    background-color:lightgreen;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color:rgb(239, 243, 7);
+    list-style: none;
+    padding: 10px;
+}
+
+.dropdown:hover .submenu{
+    display: block;
+}
+
+.submenu li {
+    margin: 5px;
+}
+
+li: a hover {
+    background-color:yellow;
+}
+
+footer {
+    margin-top: auto;
+    background-color:whitesmoke ;
+    color: rgb(255, 6, 6);
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media img {
+    max-height: 700px;
+    margin: 5px;
+    max-width: 100%;
+}
+
+.behind{
+    background-color:rgb(50, 247, 50);
+}
+
+.behind1{
+    background-color:rgb(0, 247, 255);
+}
+
+.behind2{
+    background-color:rgb(255, 146, 3);
+}
+
+.behind3{
+    background-color:rgb(92, 248, 248);
+}
+
+.behind4{
+    background-color:rgb(255, 176, 72);
+}
+
+.behind5{
+    background-color:rgb(168, 228, 225);
+}
